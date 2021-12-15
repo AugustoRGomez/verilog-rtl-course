@@ -1,0 +1,9 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+//CONSIGNA --------------------------------------//
+*Si la tasa de error (BER: bit error rate) es de 1/1000,cual es la probabilidad de detectar el FAS correctamente con i_n_conf=2?
+P_FAS= prob_fas_con_error= 64/1000= 0.064000
+como la prob de que venga otro FAS no depende del anterior FAS, son eventos independientes
+el modulo se engancha luego de un 3 FAS correctos siendo los 2 ultimos coincidentes en el tiempo con o_sof
+la probabilidad de engancharse dado estos 3 eventos sera P_LOCK= 1- (64/1000)= 0.936000
+//-----------------------------------------------//

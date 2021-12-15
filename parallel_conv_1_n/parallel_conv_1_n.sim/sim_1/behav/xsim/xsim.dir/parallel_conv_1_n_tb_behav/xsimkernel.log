@@ -1,0 +1,7 @@
+Running: xsim.dir/parallel_conv_1_n_tb_behav/xsimk.exe -simmode gui -wdb parallel_conv_1_n_tb_behav.wdb -simrunnum 0 -socket 54722
+Design successfully loaded
+Design Loading Memory Usage: 5860 KB (Peak: 5860 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 6492 KB (Peak: 6492 KB)
+Simulation CPU Usage: 124 ms

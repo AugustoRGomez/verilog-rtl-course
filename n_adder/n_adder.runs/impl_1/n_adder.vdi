@@ -1,0 +1,339 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Sep  5 22:43:36 2021
+# Process ID: 2316
+# Current directory: C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/n_adder/n_adder.runs/impl_1
+# Command line: vivado.exe -log n_adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source n_adder.tcl -notrace
+# Log file: C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/n_adder/n_adder.runs/impl_1/n_adder.vdi
+# Journal file: C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/n_adder/n_adder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source n_adder.tcl -notrace
+Command: link_design -top n_adder -part xc7z010iclg225-1L
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010iclg225-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1002.516 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1002.516 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1002.516 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010i'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010i'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1002.516 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 14f1517a8
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1233.371 ; gain = 230.855
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 14f1517a8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 1444.129 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 14f1517a8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.086 . Memory (MB): peak = 1444.129 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1c9e00d3b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 1444.129 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1c9e00d3b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.118 . Memory (MB): peak = 1444.129 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1c9e00d3b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.122 . Memory (MB): peak = 1444.129 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1c9e00d3b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.126 . Memory (MB): peak = 1444.129 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1444.129 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 69256e65
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.142 . Memory (MB): peak = 1444.129 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 69256e65
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1444.129 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 69256e65
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1444.129 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1444.129 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 69256e65
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1444.129 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+23 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1444.129 ; gain = 441.613
+INFO: [Common 17-1381] The checkpoint 'C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/n_adder/n_adder.runs/impl_1/n_adder_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file n_adder_drc_opted.rpt -pb n_adder_drc_opted.pb -rpx n_adder_drc_opted.rpx
+Command: report_drc -file n_adder_drc_opted.rpt -pb n_adder_drc_opted.pb -rpx n_adder_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/n_adder/n_adder.runs/impl_1/n_adder_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010i'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010i'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1490.031 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 0aaf17c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1490.031 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1490.031 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (64) is greater than number of available sites (54).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 54 sites available on device, but needs 64 sites.
+	Term: i_data_bus[0]
+	Term: i_data_bus[1]
+	Term: i_data_bus[2]
+	Term: i_data_bus[3]
+	Term: i_data_bus[4]
+	Term: i_data_bus[5]
+	Term: i_data_bus[6]
+	Term: i_data_bus[7]
+	Term: i_data_bus[8]
+	Term: i_data_bus[9]
+	Term: i_data_bus[10]
+	Term: i_data_bus[11]
+	Term: i_data_bus[12]
+	Term: i_data_bus[13]
+	Term: i_data_bus[14]
+	Term: i_data_bus[15]
+	Term: i_data_bus[16]
+	Term: i_data_bus[17]
+	Term: i_data_bus[18]
+	Term: i_data_bus[19]
+	Term: i_data_bus[20]
+	Term: i_data_bus[21]
+	Term: i_data_bus[22]
+	Term: i_data_bus[23]
+	Term: i_data_bus[24]
+	Term: i_data_bus[25]
+	Term: i_data_bus[26]
+	Term: i_data_bus[27]
+	Term: i_data_bus[28]
+	Term: i_data_bus[29]
+	Term: i_data_bus[30]
+	Term: i_data_bus[31]
+	Term: i_data_bus[32]
+	Term: i_data_bus[33]
+	Term: i_data_bus[34]
+	Term: i_data_bus[35]
+	Term: i_data_bus[36]
+	Term: i_data_bus[37]
+	Term: i_data_bus[38]
+	Term: i_data_bus[39]
+	Term: i_data_bus[40]
+	Term: i_data_bus[41]
+	Term: i_data_bus[42]
+	Term: i_data_bus[43]
+	Term: i_data_bus[44]
+	Term: i_data_bus[45]
+	Term: i_data_bus[46]
+	Term: i_data_bus[47]
+	Term: i_data_bus[48]
+	Term: i_data_bus[49]
+	Term: i_data_bus[50]
+	Term: i_data_bus[51]
+	Term: i_data_bus[52]
+	Term: i_data_bus[53]
+	Term: i_data_bus[54]
+	Term: i_data_bus[55]
+	Term: i_data_bus[56]
+	Term: i_data_bus[57]
+	Term: i_data_bus[58]
+	Term: i_data_bus[59]
+	Term: i_data_bus[60]
+	Term: i_data_bus[61]
+	Term: i_data_bus[62]
+	Term: i_data_bus[63]
+
+
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (72) is greater than number of available sites (54).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  In   RangeId: 1  has only 54 sites available on device, but needs 64 sites.
+	Term: i_data_bus[0]
+	Term: i_data_bus[1]
+	Term: i_data_bus[2]
+	Term: i_data_bus[3]
+	Term: i_data_bus[4]
+	Term: i_data_bus[5]
+	Term: i_data_bus[6]
+	Term: i_data_bus[7]
+	Term: i_data_bus[8]
+	Term: i_data_bus[9]
+	Term: i_data_bus[10]
+	Term: i_data_bus[11]
+	Term: i_data_bus[12]
+	Term: i_data_bus[13]
+	Term: i_data_bus[14]
+	Term: i_data_bus[15]
+	Term: i_data_bus[16]
+	Term: i_data_bus[17]
+	Term: i_data_bus[18]
+	Term: i_data_bus[19]
+	Term: i_data_bus[20]
+	Term: i_data_bus[21]
+	Term: i_data_bus[22]
+	Term: i_data_bus[23]
+	Term: i_data_bus[24]
+	Term: i_data_bus[25]
+	Term: i_data_bus[26]
+	Term: i_data_bus[27]
+	Term: i_data_bus[28]
+	Term: i_data_bus[29]
+	Term: i_data_bus[30]
+	Term: i_data_bus[31]
+	Term: i_data_bus[32]
+	Term: i_data_bus[33]
+	Term: i_data_bus[34]
+	Term: i_data_bus[35]
+	Term: i_data_bus[36]
+	Term: i_data_bus[37]
+	Term: i_data_bus[38]
+	Term: i_data_bus[39]
+	Term: i_data_bus[40]
+	Term: i_data_bus[41]
+	Term: i_data_bus[42]
+	Term: i_data_bus[43]
+	Term: i_data_bus[44]
+	Term: i_data_bus[45]
+	Term: i_data_bus[46]
+	Term: i_data_bus[47]
+	Term: i_data_bus[48]
+	Term: i_data_bus[49]
+	Term: i_data_bus[50]
+	Term: i_data_bus[51]
+	Term: i_data_bus[52]
+	Term: i_data_bus[53]
+	Term: i_data_bus[54]
+	Term: i_data_bus[55]
+	Term: i_data_bus[56]
+	Term: i_data_bus[57]
+	Term: i_data_bus[58]
+	Term: i_data_bus[59]
+	Term: i_data_bus[60]
+	Term: i_data_bus[61]
+	Term: i_data_bus[62]
+	Term: i_data_bus[63]
+
+
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    46 |     0 |                                                                        |                                          |        |        |        |     |
+| 35 |     8 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |    54 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 0aaf17c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.281 . Memory (MB): peak = 1490.031 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 0aaf17c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.283 . Memory (MB): peak = 1490.031 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 0aaf17c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.286 . Memory (MB): peak = 1490.031 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+40 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Sun Sep  5 22:44:36 2021...

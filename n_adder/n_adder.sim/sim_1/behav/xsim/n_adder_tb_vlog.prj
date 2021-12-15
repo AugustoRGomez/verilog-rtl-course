@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../n_adder.srcs/sources_1/new/n_adder.v" \
+"../../../../n_adder.srcs/sim_1/new/t_clock_generator.v" \
+"../../../../n_adder.srcs/sim_1/new/n_adder_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Dec  5 22:11:19 2021
+# Process ID: 10032
+# Current directory: C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/seq_aligner/seq_aligner.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/seq_aligner/seq_aligner.sim/sim_1/behav/xsim/xsim.dir/seq_aligner_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/seq_aligner/seq_aligner.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/seq_aligner/seq_aligner.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/augus/Documents/Fundacion -notrace
+couldn't read file "C:/Users/augus/Documents/Fundacion": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Sun Dec  5 22:11:19 2021...

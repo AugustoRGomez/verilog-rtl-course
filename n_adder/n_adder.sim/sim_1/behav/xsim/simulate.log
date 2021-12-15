@@ -1,0 +1,9 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+ERROR: Addition mismatch (_gen, _alw, _real)-> (x, x, x)
+TEST PASSED: Test_data= 12153524, result= 2, N_TERM=          16, NB_DATA=           2
+TEST PASSED: Test_data= c0895e81, result= 2, N_TERM=          16, NB_DATA=           2
+TEST PASSED: Test_data= 8484d609, result= 0, N_TERM=          16, NB_DATA=           2
+TEST PASSED: Test_data= b1f05663, result= 3, N_TERM=          16, NB_DATA=           2
+TEST PASSED: Test_data= 06b97b0d, result= 0, N_TERM=          16, NB_DATA=           2
+$finish called at time : 550 ns : File "C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/n_adder/n_adder.srcs/sim_1/new/n_adder_tb.v" Line 46

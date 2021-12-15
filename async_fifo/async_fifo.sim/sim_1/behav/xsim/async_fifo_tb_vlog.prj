@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../async_fifo.srcs/sources_1/new/async_fifo.v" \
+"../../../../async_fifo.srcs/sources_1/imports/paralelConv1N/sigma_delta.v" \
+"../../../../async_fifo.srcs/sim_1/imports/loaderAndShifter/t_clock_generator.v" \
+"../../../../async_fifo.srcs/sources_1/imports/paralelConv1N/t_prbs_checker.v" \
+"../../../../async_fifo.srcs/sources_1/imports/paralelConv1N/t_prbs_generator.v" \
+"../../../../async_fifo.srcs/sim_1/new/async_fifo_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

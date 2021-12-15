@@ -1,0 +1,26 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto dc52817615e745069f64aa64d3ddc0a3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot final_course_exercise_tb_behav xil_defaultlib.final_course_exercise_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 64 for port 'i_num' [C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/final_course_exercise/final_course_exercise.srcs/sources_1/new/final_course_exercise.v:223]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 64 for port 'i_den' [C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/final_course_exercise/final_course_exercise.srcs/sources_1/new/final_course_exercise.v:224]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.t_clock_generator(JITTER_ENABLE=...
+Compiling module xil_defaultlib.t_clock_generator(HALF_PERIOD=30...
+Compiling module xil_defaultlib.t_prbs_generator(NB_DATA=8,TAP1=...
+Compiling module xil_defaultlib.t_prbs_checker(NB_DATA=24,F_MINL...
+Compiling module xil_defaultlib.parallel_conv_1_n(NB_DATA=8,N=5)
+Compiling module xil_defaultlib.seq_aligner(NB_CONF=3,NB_LOSS=3)
+Compiling module xil_defaultlib.async_fifo(NB_DATA=41)
+Compiling module xil_defaultlib.sigma_delta
+Compiling module xil_defaultlib.parallel_conv_5_3_default
+Compiling module xil_defaultlib.parallel_conv_5_3(NB_DATA=1'b1)
+Compiling module xil_defaultlib.final_course_exercise_default
+Compiling module xil_defaultlib.final_course_exercise_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot final_course_exercise_tb_behav

@@ -1,0 +1,21 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e5f1db4ab0904367bc4362a0366726df --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot async_fifo_tb_behav xil_defaultlib.async_fifo_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 64 for port 'i_num' [C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/async_fifo/async_fifo.srcs/sim_1/new/async_fifo_tb.v:225]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 64 for port 'i_den' [C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/async_fifo/async_fifo.srcs/sim_1/new/async_fifo_tb.v:226]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.t_clock_generator(JITTER_ENABLE=...
+Compiling module xil_defaultlib.t_clock_generator(JITTER_ENABLE=...
+Compiling module xil_defaultlib.t_prbs_generator(NB_DATA=8,TAP1=...
+Compiling module xil_defaultlib.sigma_delta
+Compiling module xil_defaultlib.t_prbs_checker(NB_DATA=8,F_MINLO...
+Compiling module xil_defaultlib.async_fifo_default
+Compiling module xil_defaultlib.async_fifo_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot async_fifo_tb_behav

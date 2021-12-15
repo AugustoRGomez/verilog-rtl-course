@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="parallel_conv_5_3_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="parallel_conv_5_3_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3000001fs"></ZoomEndTime>
+      <Cursor1Time time="3000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="236"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/parallel_conv_5_3_tb/tb_i_clock" type="logic">
+      <obj_property name="ElementShortName">tb_i_clock</obj_property>
+      <obj_property name="ObjectShortName">tb_i_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/tb_i_reset" type="logic">
+      <obj_property name="ElementShortName">tb_i_reset</obj_property>
+      <obj_property name="ObjectShortName">tb_i_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/gen_i_start" type="logic">
+      <obj_property name="ElementShortName">gen_i_start</obj_property>
+      <obj_property name="ObjectShortName">gen_i_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/gen_o_data_out" type="array">
+      <obj_property name="ElementShortName">gen_o_data_out[39:0]</obj_property>
+      <obj_property name="ObjectShortName">gen_o_data_out[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/sd_o_valid" type="logic">
+      <obj_property name="ElementShortName">sd_o_valid</obj_property>
+      <obj_property name="ObjectShortName">sd_o_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/conv_o_shifter" type="array">
+      <obj_property name="ElementShortName">conv_o_shifter[71:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_o_shifter[71:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/conv_o_data" type="array">
+      <obj_property name="ElementShortName">conv_o_data[23:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_o_data[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/conv_o_cnt_main" type="array">
+      <obj_property name="ElementShortName">conv_o_cnt_main[31:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_o_cnt_main[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/conv_o_cnt_aux" type="array">
+      <obj_property name="ElementShortName">conv_o_cnt_aux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_o_cnt_aux[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/conv_o_count" type="array">
+      <obj_property name="ElementShortName">conv_o_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_o_count[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/conv_o_count_full" type="logic">
+      <obj_property name="ElementShortName">conv_o_count_full</obj_property>
+      <obj_property name="ObjectShortName">conv_o_count_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/conv_o_valid" type="logic">
+      <obj_property name="ElementShortName">conv_o_valid</obj_property>
+      <obj_property name="ObjectShortName">conv_o_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/check_o_prbs_in_lock" type="logic">
+      <obj_property name="ElementShortName">check_o_prbs_in_lock</obj_property>
+      <obj_property name="ObjectShortName">check_o_prbs_in_lock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/MSB_IS_NEWER" type="array">
+      <obj_property name="ElementShortName">MSB_IS_NEWER[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MSB_IS_NEWER[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/parallel_conv_5_3_tb/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

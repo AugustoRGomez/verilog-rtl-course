@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_1_n/parallel_conv_1_n.srcs/sources_1/new/parallel_conv_1_n.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module parallel_conv_1_n
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_1_n/parallel_conv_1_n.srcs/sim_1/imports/loaderAndShifter/t_clock_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_clock_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_1_n/parallel_conv_1_n.srcs/sources_1/imports/paralelConv1N/t_prbs_checker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_prbs_checker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_1_n/parallel_conv_1_n.srcs/sources_1/imports/paralelConv1N/t_prbs_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_prbs_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_1_n/parallel_conv_1_n.srcs/sim_1/new/parallel_conv_1_n_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module parallel_conv_1_n_tb

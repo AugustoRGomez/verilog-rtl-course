@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_5_3/parallel_conv_5_3.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_5_3/parallel_conv_5_3.srcs/sim_1/imports/loaderAndShifter/t_clock_generator.v,1623516140,verilog,,C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_5_3/parallel_conv_5_3.srcs/sources_1/imports/paralelConv1N/t_prbs_checker.v,,t_clock_generator,,,,,,,,
+C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_5_3/parallel_conv_5_3.srcs/sim_1/new/parallel_conv_5_3_tb.v,1637801357,verilog,,,,parallel_conv_5_3_tb,,,,,,,,
+C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_5_3/parallel_conv_5_3.srcs/sources_1/imports/paralelConv1N/sigma_delta.v,1635694971,verilog,,C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_5_3/parallel_conv_5_3.srcs/sim_1/imports/loaderAndShifter/t_clock_generator.v,,sigma_delta,,,,,,,,
+C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_5_3/parallel_conv_5_3.srcs/sources_1/imports/paralelConv1N/t_prbs_checker.v,1636679128,verilog,,C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_5_3/parallel_conv_5_3.srcs/sources_1/imports/paralelConv1N/t_prbs_generator.v,,t_prbs_checker,,,,,,,,
+C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_5_3/parallel_conv_5_3.srcs/sources_1/imports/paralelConv1N/t_prbs_generator.v,1632505292,verilog,,C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_5_3/parallel_conv_5_3.srcs/sim_1/new/parallel_conv_5_3_tb.v,,t_prbs_generator,,,,,,,,
+C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_5_3/parallel_conv_5_3.srcs/sources_1/new/parallel_conv_5_3.v,1637801090,verilog,,C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/parallel_conv_5_3/parallel_conv_5_3.srcs/sources_1/imports/paralelConv1N/sigma_delta.v,,parallel_conv_5_3,,,,,,,,

@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/n_adder/n_adder.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/n_adder/n_adder.srcs/sim_1/new/n_adder_tb.v,1629471862,verilog,,,,n_adder_tb,,,,,,,,
+C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/n_adder/n_adder.srcs/sim_1/new/t_clock_generator.v,1627508992,verilog,,C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/n_adder/n_adder.srcs/sim_1/new/n_adder_tb.v,,t_clock_generator,,,,,,,,
+C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/n_adder/n_adder.srcs/sources_1/new/n_adder.v,1629467977,verilog,,C:/Users/augus/Documents/Fundacion Fulgor/Digital design Verilog RTL Course/Designs/n_adder/n_adder.srcs/sim_1/new/t_clock_generator.v,,basic_adder;n_adder,,,,,,,,

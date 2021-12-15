@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../seq_aligner.srcs/sources_1/new/seq_aligner.v" \
+"../../../../seq_aligner.srcs/sim_1/imports/Ejercicio_1/t_clock_generator.v" \
+"../../../../seq_aligner.srcs/sim_1/new/seq_aligner_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

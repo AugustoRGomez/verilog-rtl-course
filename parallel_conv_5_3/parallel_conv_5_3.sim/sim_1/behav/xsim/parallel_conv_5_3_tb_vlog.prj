@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../parallel_conv_5_3.srcs/sources_1/new/parallel_conv_5_3.v" \
+"../../../../parallel_conv_5_3.srcs/sources_1/imports/paralelConv1N/sigma_delta.v" \
+"../../../../parallel_conv_5_3.srcs/sim_1/imports/loaderAndShifter/t_clock_generator.v" \
+"../../../../parallel_conv_5_3.srcs/sources_1/imports/paralelConv1N/t_prbs_checker.v" \
+"../../../../parallel_conv_5_3.srcs/sources_1/imports/paralelConv1N/t_prbs_generator.v" \
+"../../../../parallel_conv_5_3.srcs/sim_1/new/parallel_conv_5_3_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
